@@ -1,0 +1,1125 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ligabasket documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ligabasket documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  InformacionequiposComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/modules/informacionequipos/informacionequipos.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-informacionequipos</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./informacionequipos.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./informacionequipos.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#formularioEquipo" >formularioEquipo</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#fotoMostrar" >fotoMostrar</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#id" >id</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#preinscripcionActual" >preinscripcionActual</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#aceptarPreinscripcion" >aceptarPreinscripcion</a>
+                            </li>
+                            <li>
+                                <a href="#atras" >atras</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#rechazarPreinscripcion" >rechazarPreinscripcion</a>
+                            </li>
+                            <li>
+                                <a href="#regresar" >regresar</a>
+                            </li>
+                            <li>
+                                <a href="#sanitizeURL" >sanitizeURL</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, servicePreinscripcion: <a href="../injectables/PreinscripcionService.html" target="_self">PreinscripcionService</a>, _location: <a href="https://angular.io/api/common/Location" target="_blank">Location</a>, sanitizer: <a href="https://angular.io/api/platform-browser/DomSanitizer" target="_blank">DomSanitizer</a>, routerView: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, activatedRoute: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>servicePreinscripcion</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/PreinscripcionService.html" target="_self" >PreinscripcionService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_location</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/common/Location" target="_blank" >Location</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>sanitizer</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/platform-browser/DomSanitizer" target="_blank" >DomSanitizer</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>routerView</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>activatedRoute</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="aceptarPreinscripcion"></a>
+                    <span class="name">
+                        <span ><b>aceptarPreinscripcion</b></span>
+                        <a href="#aceptarPreinscripcion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>aceptarPreinscripcion($id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="66"
+                            class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:66</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="atras"></a>
+                    <span class="name">
+                        <span ><b>atras</b></span>
+                        <a href="#atras"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>atras()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="82"
+                            class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:82</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="35"
+                            class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:35</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="rechazarPreinscripcion"></a>
+                    <span class="name">
+                        <span ><b>rechazarPreinscripcion</b></span>
+                        <a href="#rechazarPreinscripcion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>rechazarPreinscripcion($id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="57"
+                            class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:57</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="regresar"></a>
+                    <span class="name">
+                        <span ><b>regresar</b></span>
+                        <a href="#regresar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>regresar()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="79"
+                            class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:79</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sanitizeURL"></a>
+                    <span class="name">
+                        <span ><b>sanitizeURL</b></span>
+                        <a href="#sanitizeURL"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sanitizeURL(url: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="74"
+                            class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:74</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>url</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="formularioEquipo"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>formularioEquipo</b></span>
+                        <a href="#formularioEquipo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:33</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fotoMostrar"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>fotoMostrar</b></span>
+                        <a href="#fotoMostrar"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:17</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="id"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>id</b></span>
+                        <a href="#id"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:14</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="preinscripcionActual"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>preinscripcionActual</b></span>
+                        <a href="#preinscripcionActual"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{ &quot;idPreinscripcion&quot;: &#x27;&#x27;, &quot;fechaPreinscripcion&quot;: &#x27;&#x27;, &quot;voucherPreinscripcion&quot;: &quot;&quot;, &quot;nombreEquipo&quot;: &quot;&quot;, &quot;habilitado&quot;: &quot;&quot;, &quot;paisEquipo&quot;: &quot;&quot;, &quot;montoPago&quot;: &quot;&quot;, &quot;nroComprobante&quot;: &#x27;&#x27;, &quot;idDelegado&quot;: &quot;&quot;, &quot;idCategoria&quot;: &#x27;&#x27;,&quot;correoDelegado&quot;: &#x27;&#x27;,&quot;nombreDelegado&quot;: &#x27;&#x27;,&quot;apellidoDelegado&quot;: &#x27;&#x27;, &quot;nombreCategoria&quot;: &#x27;&#x27;}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/modules/informacionequipos/informacionequipos.component.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &quot;@angular/core&quot;;
+import { ActivatedRoute, Router } from &quot;@angular/router&quot;;
+import { PreinscripcionService } from &quot;src/app/services/preinscripcion.service&quot;;
+import {DomSanitizer, SafeUrl, SafeResourceUrl} from &#x27;@angular/platform-browser&#x27;;
+import { PreinscripcionI } from &quot;../models/preinscripcion.interface&quot;;
+import {Location} from &#x27;@angular/common&#x27;;
+
+@Component({
+  selector: &quot;app-informacionequipos&quot;,
+  templateUrl: &quot;./informacionequipos.component.html&quot;,
+  styleUrls: [&quot;./informacionequipos.component.css&quot;],
+})
+export class InformacionequiposComponent implements OnInit {
+  public id: string &#x3D; &quot;&quot;;
+  public preinscripcionActual &#x3D; { &quot;idPreinscripcion&quot;: &#x27;&#x27;, &quot;fechaPreinscripcion&quot;: &#x27;&#x27;, &quot;voucherPreinscripcion&quot;: &quot;&quot;, &quot;nombreEquipo&quot;: &quot;&quot;, &quot;habilitado&quot;: &quot;&quot;, &quot;paisEquipo&quot;: &quot;&quot;, &quot;montoPago&quot;: &quot;&quot;, &quot;nroComprobante&quot;: &#x27;&#x27;, &quot;idDelegado&quot;: &quot;&quot;, &quot;idCategoria&quot;: &#x27;&#x27;,&quot;correoDelegado&quot;: &#x27;&#x27;,&quot;nombreDelegado&quot;: &#x27;&#x27;,&quot;apellidoDelegado&quot;: &#x27;&#x27;, &quot;nombreCategoria&quot;: &#x27;&#x27;};
+  //public preinscripcionActual: PreinscripcionI;
+  public fotoMostrar&#x3D; &#x27;&#x27;;
+  
+
+  constructor(
+    router: ActivatedRoute,
+    private servicePreinscripcion: PreinscripcionService,
+    private _location: Location,
+    private sanitizer:DomSanitizer,
+    private routerView:Router,
+    private activatedRoute: ActivatedRoute
+  ) {
+    router.params.subscribe((params) &#x3D;&gt; {
+      this.id &#x3D; params[&quot;id&quot;];
+    });
+  }
+
+  public formularioEquipo: any;
+
+  ngOnInit(): void {
+    this.servicePreinscripcion
+      .getPreinscripcionBuscada(this.id)
+      //.subscribe((res: any) &#x3D;&gt; (this.preinscripcionActual &#x3D; res, this.fotoMostrar &#x3D; this.sanitizer.bypassSecurityTrustResourceUrl(res.fotoComprobante)));
+      .subscribe((res: any) &#x3D;&gt; 
+        {console.log(res);
+        if(res !&#x3D; null){
+          this.preinscripcionActual &#x3D; res;
+                                this.fotoMostrar.concat(this.preinscripcionActual.voucherPreinscripcion);
+                                this.fotoMostrar +&#x3D; res.voucherPreinscripcion;
+                                console.log(this.fotoMostrar);        
+        }
+        if(res &#x3D;&#x3D; null){
+          this.routerView.navigate([&#x27;vistaerror/Esta preinscripcion ya fue evaluada&#x27;], { skipLocationChange: true });
+    
+        }
+        });
+      //console.log(this.preinscripcionActual);
+
+      //console.log(this.preinscripcionActual);
+  }
+
+  rechazarPreinscripcion($id: string) {
+    this.servicePreinscripcion.rechazarPreinsc(this.id)
+    .subscribe((res: any) &#x3D;&gt; {
+      console.log(res), this.routerView.navigate([&#x27;../&#x27;], {relativeTo: this.activatedRoute})
+    }
+    );
+    this.regresar();
+  }
+
+  aceptarPreinscripcion($id: string) {
+    console.log($id);
+    this.servicePreinscripcion
+      .aceptarPreinsc(this.id)
+      .subscribe((res: any) &#x3D;&gt; console.log(res));
+      this.regresar();
+  }
+
+  sanitizeURL(url:string){
+    return this.sanitizer.bypassSecurityTrustUrl(url);
+}
+  //async fetchData(): void {}
+
+  regresar(){
+    this._location.back();
+  }
+  atras(){
+    this._location.back();
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;app-header&gt;&lt;/app-header&gt;
+
+&lt;!--{{ id }}--&gt;
+&lt;!--{{ preinscripcionActual | json }}  foto wea: {{ fotoMostrar }}--&gt;
+&lt;!--&lt;form (ngSubmit)&#x3D;&quot;onSubmit()&quot; [formGroup]&#x3D;&quot;registerForm&quot;&gt;&lt;/form&gt;--&gt;
+&lt;div class&#x3D;&quot;modal-footer&quot;&gt;
+  &lt;a class&#x3D;&quot;atras&quot; (click)&#x3D;&quot;atras()&quot;&gt;&lt;img src&#x3D;&quot;../../../assets/Imagenes/atrasoficial.png&quot; height&#x3D;&quot;70&quot; width&#x3D;&quot;70&quot; alt&#x3D;&quot;Botón&quot;&gt; &lt;/a&gt;
+  
+ &lt;/div&gt;
+
+&lt;!--INPUT nombre delegado--&gt;
+
+&lt;!--categorias &lt;br /&gt;s
+      {{ listaEquipos | json }} &lt;br /&gt;
+      {{ listaCategorias | json }} &lt;br /&gt;
+      paises &lt;br /&gt;
+      {{ listaPaises | json }} &lt;br /&gt;
+      --&gt;
+&lt;div class&#x3D;&quot;container&quot;&gt;
+  &lt;div class&#x3D;&quot;uno&quot;&gt;
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;nombre del Delegado: {{ preinscripcionActual?.nombreDelegado }} &lt;hr&gt;&lt;/label
+    &gt;
+    &lt;br /&gt;&lt;br /&gt;
+
+    &lt;!--INPUT email--&gt;
+
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;Email: {{ preinscripcionActual?.correoDelegado }} &lt;hr&gt;&lt;/label
+    &gt;
+    &lt;br /&gt;&lt;br /&gt;
+
+    &lt;!--INPUT nombreequipo--&gt;
+
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;Nombre del equipo: {{ preinscripcionActual?.nombreEquipo }} &lt;hr&gt;&lt;/label
+    &gt;
+    &lt;br /&gt;&lt;br /&gt;
+
+    &lt;!--INPUT PAIS--&gt;
+
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;País: {{ preinscripcionActual?.paisEquipo }} &lt;hr&gt;&lt;/label
+    &gt;
+    &lt;br /&gt;&lt;br /&gt;
+
+    &lt;!--INPUT categorias--&gt;
+
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;Categoría: {{ preinscripcionActual?.nombreCategoria }} &lt;hr&gt;&lt;/label
+    &gt;
+    &lt;br /&gt;&lt;br /&gt;
+
+    &lt;!--INPUT nro de comprobante--&gt;
+
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;Nro de comprobante de pago:
+      {{ preinscripcionActual?.nroComprobante }} &lt;hr&gt;&lt;/label
+    &gt;
+    &lt;br /&gt;&lt;br /&gt;
+&lt;/div&gt;
+    &lt;!--INPUT monto de pago--&gt;
+    &lt;div class&#x3D;&quot;dos&quot;&gt;
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;Monto de pago: {{ preinscripcionActual?.montoPago }} &lt;hr&gt;&lt;/label
+    &gt;
+    &lt;br /&gt;
+
+    &lt;br /&gt;
+    &lt;!--imagen voucher--&gt;
+
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;
+      Comprobante de pago: &lt;a href&#x3D;&quot;{{ preinscripcionActual?.voucherPreinscripcion }}&quot;&gt;comprobante de pago &lt;hr&gt;&lt;/a&gt;
+    &lt;/label&gt;
+    &lt;br /&gt;&lt;br /&gt;
+
+    &lt;!-- &lt;div
+        *ngIf&#x3D;&quot;submitted&quot;
+        class&#x3D;&quot;text-danger&quot;
+      &gt;
+        &lt;div *ngIf&#x3D;&quot;form.voucherPreinscripcion.errors?.required&quot;&gt;
+          Por favor, suba el comprobante
+        &lt;/div&gt;
+      &lt;/div&gt; --&gt;
+    &lt;br /&gt;&lt;br /&gt;
+    &lt;!--INPUT agregar fecha--&gt;
+
+    &lt;label type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; class&#x3D;&quot;input&quot;
+      &gt;Fecha de pago: {{ preinscripcionActual?.fechaPreinscripcion }} &lt;hr&gt;&lt;/label
+    &gt;
+  &lt;/div&gt;
+
+
+  &lt;div class&#x3D;&quot;tres&quot;&gt;
+    &lt;img [src]&#x3D;&quot;fotoMostrar&quot; /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;!--INPUT aprobar--&gt;
+
+
+
+&lt;app-footer&gt;&lt;/app-footer&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./informacionequipos.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.container {  display: grid;
+  grid-template-columns: 0.1fr 1fr 0.1fr 1fr 0.1fr;
+  grid-template-rows: 0.8fr 0.2fr 1fr 0.4fr;
+  grid-auto-columns: 0fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    &quot;. uno tres tres .&quot;
+    &quot;. uno tres tres .&quot;
+    &quot;. uno dos dos .&quot;
+    &quot;. uno dos dos .&quot;;
+}
+
+.dos { grid-area: dos; }
+
+.tres { grid-area: tres; }
+
+.uno { grid-area: uno; 
+}
+.tres .img{
+  width: 250px;
+  height: 250px;
+}
+
+  
+  
+  
+/*letras*/
+
+.input {
+    width: 80%;
+  border: none;
+  border-radius: 15px;
+  padding: 1px;
+  
+  
+  font-size: large;
+  font-weight: bold;
+  max-width: 100%;
+  max-height: 100%;
+  
+ }
+ hr { background-color: rgb(0, 0, 0); border: 0 none; color: rgb(0, 0, 0); height: 5px; margin-bottom: 2.1%;}
+ .atras{
+  position: relative;
+  cursor: pointer;
+right: 82%;
+}
+
+
+   
+   </code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><app-header></app-header><!--{{ id }}--><!--{{ preinscripcionActual | json }}  foto wea: {{ fotoMostrar }}--><!--<form (ngSubmit)="onSubmit()" [formGroup]="registerForm"></form>--><div class="modal-footer">  <a class="atras" (click)="atras()"><img src="../../../assets/Imagenes/atrasoficial.png" height="70" width="70" alt="Botón"> </a>   </div><!--INPUT nombre delegado--><!--categorias <br />s      {{ listaEquipos | json }} <br />      {{ listaCategorias | json }} <br />      paises <br />      {{ listaPaises | json }} <br />      --><div class="container">  <div class="uno">    <label type="text" name="text" class="input"      >nombre del Delegado: {{ preinscripcionActual?.nombreDelegado }} <hr></label    >    <br /><br />    <!--INPUT email-->    <label type="text" name="text" class="input"      >Email: {{ preinscripcionActual?.correoDelegado }} <hr></label    >    <br /><br />    <!--INPUT nombreequipo-->    <label type="text" name="text" class="input"      >Nombre del equipo: {{ preinscripcionActual?.nombreEquipo }} <hr></label    >    <br /><br />    <!--INPUT PAIS-->    <label type="text" name="text" class="input"      >País: {{ preinscripcionActual?.paisEquipo }} <hr></label    >    <br /><br />    <!--INPUT categorias-->    <label type="text" name="text" class="input"      >Categoría: {{ preinscripcionActual?.nombreCategoria }} <hr></label    >    <br /><br />    <!--INPUT nro de comprobante-->    <label type="text" name="text" class="input"      >Nro de comprobante de pago:      {{ preinscripcionActual?.nroComprobante }} <hr></label    >    <br /><br /></div>    <!--INPUT monto de pago-->    <div class="dos">    <label type="text" name="text" class="input"      >Monto de pago: {{ preinscripcionActual?.montoPago }} <hr></label    >    <br />    <br />    <!--imagen voucher-->    <label type="text" name="text" class="input"      >      Comprobante de pago: <a href="{{ preinscripcionActual?.voucherPreinscripcion }}">comprobante de pago <hr></a>    </label>    <br /><br />    <!-- <div        *ngIf="submitted"        class="text-danger"      >        <div *ngIf="form.voucherPreinscripcion.errors?.required">          Por favor, suba el comprobante        </div>      </div> -->    <br /><br />    <!--INPUT agregar fecha-->    <label type="text" name="text" class="input"      >Fecha de pago: {{ preinscripcionActual?.fechaPreinscripcion }} <hr></label    >  </div>  <div class="tres">    <img [src]="fotoMostrar" />  </div></div><br /><!--INPUT aprobar--><app-footer></app-footer></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CredencialComponent', 'selector': 'app-credencial'},{'name': 'CredencialesInternasComponent', 'selector': 'app-credenciales-internas'},{'name': 'EditarPreDeleComponent', 'selector': 'app-editar-pre-dele'},{'name': 'EditarPreinscripcionDelegadoComponent', 'selector': 'app-editar-preinscripcion-delegado'},{'name': 'EliminarjugadoresComponent', 'selector': 'app-eliminarjugadores'},{'name': 'EliminarPreinscripcionDelegadoComponent', 'selector': 'app-eliminar-preinscripcion-delegado'},{'name': 'EquiposAprobadosComponent', 'selector': 'app-equipos-aprobados'},{'name': 'EquiposgeneralComponent', 'selector': 'app-equiposgeneral'},{'name': 'EquiposMenuComponent', 'selector': 'app-equipos-menu'},{'name': 'EvaluarPreinsComponent', 'selector': 'app-evaluar-preins'},{'name': 'EvaluarSolicitudComponent', 'selector': 'app-evaluar-solicitud'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'InfoEquipoGeneralComponent', 'selector': 'app-info-equipo-general'},{'name': 'InfogeneralequiposComponent', 'selector': 'app-infogeneralequipos'},{'name': 'InfoJugadoresGeneralComponent', 'selector': 'app-info-jugadores-general'},{'name': 'InformacionequiposComponent', 'selector': 'app-informacionequipos'},{'name': 'InformacionjugadorComponent', 'selector': 'app-informacionjugador'},{'name': 'InformacionPreDeleComponent', 'selector': 'app-informacion-pre-dele'},{'name': 'InscripcionJugadorComponent', 'selector': 'app-inscripcion-jugador'},{'name': 'JugadoresgenealComponent', 'selector': 'app-jugadoresgeneal'},{'name': 'ListaEquiposComponent', 'selector': 'app-lista-equipos'},{'name': 'ListaJugadoresComponent', 'selector': 'app-lista-jugadores'},{'name': 'ListapreadminComponent', 'selector': 'app-listapreadmin'},{'name': 'ListaPreinscripcionDelegadoComponent', 'selector': 'app-lista-preinscripcion-delegado'},{'name': 'ListaPreinsEvaluarComponent', 'selector': 'app-lista-preins-evaluar'},{'name': 'LoginAdminComponent', 'selector': 'app-login-admin'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MainPageComponent', 'selector': 'app-main-page'},{'name': 'MenuAdminComponent', 'selector': 'app-menu-admin'},{'name': 'MenuPreinscripcionDelegadoComponent', 'selector': 'app-menu-preinscripcion-delegado'},{'name': 'MiequipoComponent', 'selector': 'app-miequipo'},{'name': 'ModulesComponent', 'selector': 'app-modules'},{'name': 'NavarComponent', 'selector': 'app-navar'},{'name': 'NotfoundComponent', 'selector': 'app-notfound'},{'name': 'PreinscipcionMenuComponent', 'selector': 'app-preinscipcion-menu'},{'name': 'ReactiveFormsComponent', 'selector': 'app-reactive-forms'},{'name': 'RegisterdelegadoComponent', 'selector': 'app-registerdelegado'},{'name': 'RegistrarEquipoComponent', 'selector': 'app-registrar-equipo'},{'name': 'SolicitudespendientesComponent', 'selector': 'app-solicitudespendientes'},{'name': 'TodosjugadoresComponent', 'selector': 'app-todosjugadores'},{'name': 'VistaAdministradorComponent', 'selector': 'app-vista-administrador'},{'name': 'VistaDelegadoComponent', 'selector': 'app-vista-delegado'},{'name': 'VistaErrorComponent', 'selector': 'app-vista-error'},{'name': 'VistaEsperaComponent', 'selector': 'app-vista-espera'},{'name': 'VistaPrincipalComponent', 'selector': 'app-vista-principal'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'InformacionequiposComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'InformacionequiposComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,1317 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ligabasket documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ligabasket documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li >PreinscripcionService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/app/services/preinscripcion.service.ts</code>
+        </p>
+
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#base_url" >base_url</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#aceptarPreinsc" >aceptarPreinsc</a>
+                            </li>
+                            <li>
+                                <a href="#EditarPreinscripcion" >EditarPreinscripcion</a>
+                            </li>
+                            <li>
+                                <a href="#eliminarPreinscripcion" >eliminarPreinscripcion</a>
+                            </li>
+                            <li>
+                                <a href="#getDatosPreinscripcionAprobada" >getDatosPreinscripcionAprobada</a>
+                            </li>
+                            <li>
+                                <a href="#getPreinscripcionBuscada" >getPreinscripcionBuscada</a>
+                            </li>
+                            <li>
+                                <a href="#getPreinscripciones" >getPreinscripciones</a>
+                            </li>
+                            <li>
+                                <a href="#getPreinscripcionesDelegado" >getPreinscripcionesDelegado</a>
+                            </li>
+                            <li>
+                                <a href="#getPreinscripcionesEditables" >getPreinscripcionesEditables</a>
+                            </li>
+                            <li>
+                                <a href="#getPreinscripcionGeneral" >getPreinscripcionGeneral</a>
+                            </li>
+                            <li>
+                                <a href="#getTodasPreinscripciones" >getTodasPreinscripciones</a>
+                            </li>
+                            <li>
+                                <a href="#Preinscripcion" >Preinscripcion</a>
+                            </li>
+                            <li>
+                                <a href="#preinscripcionesAceptadas" >preinscripcionesAceptadas</a>
+                            </li>
+                            <li>
+                                <a href="#rechazarPreinsc" >rechazarPreinsc</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(http: <a href="https://angular.io/api/common/http/HttpClient" target="_blank">HttpClient</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/services/preinscripcion.service.ts:15</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>http</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/common/http/HttpClient" target="_blank" >HttpClient</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="aceptarPreinsc"></a>
+                    <span class="name">
+                        <span ><b>aceptarPreinsc</b></span>
+                        <a href="#aceptarPreinsc"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>aceptarPreinsc($idPreinscripcion: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="114"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:114</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$idPreinscripcion</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="EditarPreinscripcion"></a>
+                    <span class="name">
+                        <span ><b>EditarPreinscripcion</b></span>
+                        <a href="#EditarPreinscripcion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>EditarPreinscripcion(form: <a href="../interfaces/PreinscripcionI.html" target="_self">PreinscripcionI</a>, idPreinscripcion: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="35"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:35</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>form</td>
+                                    <td>
+                                                <code><a href="../interfaces/PreinscripcionI.html" target="_self" >PreinscripcionI</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>idPreinscripcion</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/ResponseI.html" target="_self" >Observable&lt;ResponseI&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="eliminarPreinscripcion"></a>
+                    <span class="name">
+                        <span ><b>eliminarPreinscripcion</b></span>
+                        <a href="#eliminarPreinscripcion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>eliminarPreinscripcion(idPreinscripcion: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="99"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:99</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>idPreinscripcion</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/PreinscripcionI.html" target="_self" >Observable&lt;PreinscripcionI&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDatosPreinscripcionAprobada"></a>
+                    <span class="name">
+                        <span ><b>getDatosPreinscripcionAprobada</b></span>
+                        <a href="#getDatosPreinscripcionAprobada"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getDatosPreinscripcionAprobada($idPreinscripcion: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="92"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:92</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$idPreinscripcion</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getPreinscripcionBuscada"></a>
+                    <span class="name">
+                        <span ><b>getPreinscripcionBuscada</b></span>
+                        <a href="#getPreinscripcionBuscada"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getPreinscripcionBuscada($idPreinscripcion: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="78"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:78</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$idPreinscripcion</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getPreinscripciones"></a>
+                    <span class="name">
+                        <span ><b>getPreinscripciones</b></span>
+                        <a href="#getPreinscripciones"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getPreinscripciones()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="57"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:57</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/PreinscripcionI.html" target="_self" >Observable&lt;PreinscripcionI&gt;</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getPreinscripcionesDelegado"></a>
+                    <span class="name">
+                        <span ><b>getPreinscripcionesDelegado</b></span>
+                        <a href="#getPreinscripcionesDelegado"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getPreinscripcionesDelegado($idDelegado: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="135"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:135</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$idDelegado</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any[]&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getPreinscripcionesEditables"></a>
+                    <span class="name">
+                        <span ><b>getPreinscripcionesEditables</b></span>
+                        <a href="#getPreinscripcionesEditables"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getPreinscripcionesEditables(idDelegado: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="67"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:67</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>idDelegado</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/PreinscripcionI.html" target="_self" >Observable&lt;PreinscripcionI&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getPreinscripcionGeneral"></a>
+                    <span class="name">
+                        <span ><b>getPreinscripcionGeneral</b></span>
+                        <a href="#getPreinscripcionGeneral"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getPreinscripcionGeneral($idPreinscripcion: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="85"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:85</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$idPreinscripcion</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getTodasPreinscripciones"></a>
+                    <span class="name">
+                        <span ><b>getTodasPreinscripciones</b></span>
+                        <a href="#getTodasPreinscripciones"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getTodasPreinscripciones()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="62"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:62</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/PreinscripcionI.html" target="_self" >Observable&lt;PreinscripcionI&gt;</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="Preinscripcion"></a>
+                    <span class="name">
+                        <span ><b>Preinscripcion</b></span>
+                        <a href="#Preinscripcion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>Preinscripcion(form: <a href="../interfaces/PreinscripcionI.html" target="_self">PreinscripcionI</a>, idDelegado: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="19"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:19</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>form</td>
+                                    <td>
+                                                <code><a href="../interfaces/PreinscripcionI.html" target="_self" >PreinscripcionI</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>idDelegado</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/ResponseI.html" target="_self" >Observable&lt;ResponseI&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="preinscripcionesAceptadas"></a>
+                    <span class="name">
+                        <span ><b>preinscripcionesAceptadas</b></span>
+                        <a href="#preinscripcionesAceptadas"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>preinscripcionesAceptadas($idDelegado: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="129"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:129</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$idDelegado</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any[]&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="rechazarPreinsc"></a>
+                    <span class="name">
+                        <span ><b>rechazarPreinsc</b></span>
+                        <a href="#rechazarPreinsc"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>rechazarPreinsc($idPreinscripcion: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="121"
+                            class="link-to-prism">src/app/services/preinscripcion.service.ts:121</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>$idPreinscripcion</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Observable&lt;any&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+            <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="base_url"></a>
+                    <span class="name">
+                        <span ><b>base_url</b></span>
+                        <a href="#base_url"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&quot;http://localhost:8000/&quot;</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/services/preinscripcion.service.ts:15</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable } from &quot;@angular/core&quot;;
+import { HttpClient, HttpErrorResponse } from &quot;@angular/common/http&quot;;
+import { Observable, throwError } from &quot;rxjs&quot;;
+import { PreinscripcionI } from &quot;../modules/models/preinscripcion.interface&quot;;
+import { ResponseI } from &quot;../modules/models/response.interface&quot;;
+
+
+import { catchError } from &#x27;rxjs/operators&#x27;;
+
+
+@Injectable({
+  providedIn: &quot;root&quot;,
+})
+export class PreinscripcionService {
+  base_url: string &#x3D; &quot;http://localhost:8000/&quot;;
+
+  constructor(private http: HttpClient) {}
+
+  Preinscripcion(form: PreinscripcionI, idDelegado:string): Observable&lt;ResponseI&gt; {
+    let url &#x3D; this.base_url + &quot;api/preinscripciones/&quot;;
+    console.log(&quot;Service log: &quot;, form);
+    const formData &#x3D; new FormData();
+
+    formData.append(&quot;fechaPreinscripcion&quot;, form.fechaPreinscripcion);
+    formData.append(&quot;nombreEquipo&quot;, form.nombreEquipo);
+    formData.append(&quot;paisEquipo&quot;, form.paisEquipo);
+    formData.append(&quot;nroComprobante&quot;, form.nroComprobante);
+    formData.append(&quot;montoPago&quot;, form.montoPago);
+    formData.append(&quot;voucherPreinscripcion&quot;, form.voucherPreinscripcion);
+    formData.append(&quot;idCategoria&quot;,form.idCategoria);
+    formData.append(&quot;idDelegado&quot;, idDelegado);
+    return this.http.post&lt;ResponseI&gt;(url, formData);
+  }
+
+  EditarPreinscripcion(form: PreinscripcionI, idPreinscripcion:string): Observable&lt;ResponseI&gt; {
+    let url &#x3D; this.base_url + &quot;api/editarPreinscripcion/&quot;;
+    console.log(&quot;Service log: &quot;, form);
+    const formData &#x3D; new FormData();
+
+    formData.append(&quot;idPreinscripcion&quot;, idPreinscripcion);
+    formData.append(&quot;fechaPreinscripcion&quot;, form.fechaPreinscripcion);
+    formData.append(&quot;nombreEquipo&quot;, form.nombreEquipo);
+    formData.append(&quot;paisEquipo&quot;, form.paisEquipo);
+    formData.append(&quot;nroComprobante&quot;, form.nroComprobante);
+    formData.append(&quot;montoPago&quot;, form.montoPago);
+    formData.append(&quot;voucherPreinscripcion&quot;, form.voucherPreinscripcion);
+    formData.append(&quot;idCategoria&quot;,form.idCategoria);
+    //formData.append(&quot;idDelegado&quot;, idDelegado);
+    return this.http.post&lt;ResponseI&gt;(url, formData);
+  }
+
+  /*errorHandler(error: HttpErrorResponse){
+    return throwError(error.error.errors || &#x27;Error del server&#x27;);
+  }*/
+
+
+  getPreinscripciones():Observable&lt;PreinscripcionI&gt;{
+    return this.http.get&lt;PreinscripcionI&gt;(this.base_url + &#x27;api/preinscripciones&#x27;);
+    //return this.http.get&lt;EquipoI[]&gt;(this.base_url + &#x27;equipos&#x27;);
+  }
+
+  getTodasPreinscripciones():Observable&lt;PreinscripcionI&gt;{
+    return this.http.get&lt;PreinscripcionI&gt;(this.base_url + &#x27;api/todaspreinscripciones&#x27;);
+    //return this.http.get&lt;EquipoI[]&gt;(this.base_url + &#x27;equipos&#x27;);
+  }
+
+  getPreinscripcionesEditables(idDelegado:string):Observable&lt;PreinscripcionI&gt;{
+    console.log(idDelegado);
+    const formData &#x3D; new FormData();
+    
+    var aux &#x3D; idDelegado+&#x27;&#x27;;
+    formData.append(&quot;idDelegado&quot;, aux);
+
+    console.log(aux);
+    return this.http.post&lt;PreinscripcionI&gt;(this.base_url+&quot;api/preinscripcionesEditables&quot;, formData);
+  }
+
+  getPreinscripcionBuscada($idPreinscripcion: string):Observable&lt;any&gt;{
+    const formData &#x3D; new FormData();
+    formData.append(&#x27;idPreinscripcion&#x27;, $idPreinscripcion);
+    return this.http.post&lt;any&gt;(this.base_url + &#x27;api/preinscripcionBuscada&#x27;, formData);
+    //return this.http.get&lt;EquipoI[]&gt;(this.base_url + &#x27;equipos&#x27;);
+  }
+
+  getPreinscripcionGeneral($idPreinscripcion: string):Observable&lt;any&gt;{
+    const formData &#x3D; new FormData();
+    formData.append(&#x27;idPreinscripcion&#x27;, $idPreinscripcion);
+    return this.http.post&lt;any&gt;(this.base_url + &#x27;api/preinscripcionGeneral&#x27;, formData);
+    //return this.http.get&lt;EquipoI[]&gt;(this.base_url + &#x27;equipos&#x27;);
+  }
+
+  getDatosPreinscripcionAprobada($idPreinscripcion: string):Observable&lt;any&gt;{
+    const formData &#x3D; new FormData();
+    formData.append(&#x27;idPreinscripcion&#x27;, $idPreinscripcion);
+    return this.http.post&lt;any&gt;(this.base_url + &#x27;api/preinscripcion_inscribir&#x27;, formData);
+    //return this.http.get&lt;EquipoI[]&gt;(this.base_url + &#x27;equipos&#x27;);
+  }
+
+  eliminarPreinscripcion(idPreinscripcion:number):Observable&lt;PreinscripcionI&gt;{
+
+
+    console.log(idPreinscripcion);
+    const formData &#x3D; new FormData();
+    
+    var aux &#x3D; idPreinscripcion+&#x27;&#x27;;
+    formData.append(&quot;idPreinscripcion&quot;, aux);
+
+    console.log(aux);
+    return this.http.post&lt;PreinscripcionI&gt;(this.base_url+&quot;api/borrarPreinscripcion&quot;, formData);
+  }
+
+
+
+  aceptarPreinsc($idPreinscripcion: string):Observable&lt;any&gt;{
+    const formData &#x3D; new FormData();
+    formData.append(&#x27;idPreinscripcion&#x27;, $idPreinscripcion);
+    return this.http.post&lt;any&gt;(this.base_url + &#x27;api/aceptarpreinscripcion&#x27;, formData);
+    //return this.http.get&lt;EquipoI[]&gt;(this.base_url + &#x27;equipos&#x27;);
+  }
+
+  rechazarPreinsc($idPreinscripcion: string):Observable&lt;any&gt;{
+    const formData &#x3D; new FormData();
+    formData.append(&#x27;idPreinscripcion&#x27;, $idPreinscripcion);
+    return this.http.post&lt;any&gt;(this.base_url + &#x27;api/rechazarpreinscripcion&#x27;, formData);
+    //return this.http.get&lt;EquipoI[]&gt;(this.base_url + &#x27;equipos&#x27;);
+  }
+
+
+  preinscripcionesAceptadas($idDelegado: string):Observable&lt;any[]&gt;{
+    const formData &#x3D; new FormData();
+    formData.append(&#x27;idDelegado&#x27;, $idDelegado);
+    return this.http.post&lt;any[]&gt;(this.base_url + &#x27;api/preinscripcionesAprobadas&#x27;, formData);
+  }
+
+  getPreinscripcionesDelegado($idDelegado: string):Observable&lt;any[]&gt;{
+    const formData &#x3D; new FormData();
+    formData.append(&#x27;idDelegado&#x27;, $idDelegado);
+    return this.http.post&lt;any[]&gt;(this.base_url + &#x27;api/preinscripcionesDelegado&#x27;, formData);
+  }
+  
+  
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'PreinscripcionService.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
